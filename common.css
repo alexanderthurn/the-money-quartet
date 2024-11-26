@@ -1,0 +1,56 @@
+.card {
+    width: 90%;
+    max-width: 300px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.card .title {
+    padding: 10px;
+    background-color: #f8f8f8;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+}
+
+.card .attributes {
+    padding: 10px;
+}
+.card .attribute {
+    margin-bottom: 10px;
+}
+.card .attribute span {
+    display: block;
+    font-size: 0.9em;
+    margin-bottom: 5px;
+}
+.card .progress-bar {
+    width: 100%;
+    height: 8px;
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.card .progress-bar div {
+    height: 100%;
+    background-color: #76c7c0;
+    width: 0%; /* Adjust percentage dynamically */
+}
+.card .description {
+    padding: 10px;
+    font-size: 0.8em;
+    color: #555;
+    border-top: 1px solid #ddd;
+}
+
+#card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}

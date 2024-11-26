@@ -1,0 +1,243 @@
+.image-placeholder {
+    width: 100%;
+    aspect-ratio: 3 / 2; /* Beibehaltung des Seitenverhältnisses */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white; /* Hintergrund bleibt weiß */
+    background-size: contain; /* Bild vollständig anzeigen */
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.card_0 {
+    background-image: url('images/0_Wampum.png');
+}
+
+.card_10 {
+    background-image: url('images/10_Grain.png');
+}
+
+.card_11 {
+    background-image: url('images/11_British_Pound.png');
+}
+
+.card_12 {
+    background-image: url('images/12_Denarius.png');
+}
+
+.card_13 {
+    background-image: url('images/13_Bitcoin.png');
+}
+
+.card_14 {
+    background-image: url('images/14_Teeth.png');
+}
+
+.card_15 {
+    background-image: url('images/15_Tobacco.png');
+}
+
+.card_16 {
+    background-image: url('images/16_Japanese_Yen.png');
+}
+
+.card_17 {
+    background-image: url('images/17_Copper.png');
+}
+
+.card_18 {
+    background-image: url('images/18_Reichsmark.png');
+}
+
+.card_19 {
+    background-image: url('images/19_Salt_Bars_(Amole).png');
+}
+
+.card_1 {
+    background-image: url('images/1_Glass_Beads.png');
+}
+
+.card_20 {
+    background-image: url('images/20_Florin.png');
+}
+
+.card_21 {
+    background-image: url('images/21_Cacao.png');
+}
+
+.card_22 {
+    background-image: url('images/22_Ethereum.png');
+}
+
+.card_23 {
+    background-image: url('images/23_United_States_Dollar.png');
+}
+
+.card_24 {
+    background-image: url('images/24_Cattle.png');
+}
+
+.card_25 {
+    background-image: url('images/25_Jewelry.png');
+}
+
+.card_26 {
+    background-image: url('images/26_Tally_Sticks.png');
+}
+
+.card_27 {
+    background-image: url('images/27_Obsidian_Blades.png');
+}
+
+.card_28 {
+    background-image: url('images/28_Byzantine_Solidus.png');
+}
+
+.card_29 {
+    background-image: url('images/29_Greek_Drachma.png');
+}
+
+.card_2 {
+    background-image: url('images/2_Chinese_Renminbi.png');
+}
+
+.card_30 {
+    background-image: url('images/30_Roman_Aureus.png');
+}
+
+.card_31 {
+    background-image: url('images/31_Katanga_Crosses.png');
+}
+
+.card_32 {
+    background-image: url('images/32_Chinese_Knife_Money.png');
+}
+
+.card_33 {
+    background-image: url('images/33_Whiskey.png');
+}
+
+.card_34 {
+    background-image: url('images/34_Cigarettes.png');
+}
+
+.card_35 {
+    background-image: url('images/35_Mobile_Phone_Airtime_Credits.png');
+}
+
+.card_36 {
+    background-image: url('images/36_Swiss_Franc.png');
+}
+
+.card_37 {
+    background-image: url('images/37_Canadian_Dollar.png');
+}
+
+.card_38 {
+    background-image: url('images/38_Australian_Dollar.png');
+}
+
+.card_39 {
+    background-image: url('images/39_Russian_Ruble.png');
+}
+
+.card_3 {
+    background-image: url('images/3_Euro.png');
+}
+
+.card_40 {
+    background-image: url('images/40_Indian_Rupee.png');
+}
+
+.card_41 {
+    background-image: url('images/41_Brazilian_Real.png');
+}
+
+.card_42 {
+    background-image: url('images/42_South_African_Rand.png');
+}
+
+.card_43 {
+    background-image: url('images/43_Kenyan_Shilling.png');
+}
+
+.card_44 {
+    background-image: url('images/44_Indonesian_Rupiah.png');
+}
+
+.card_46 {
+    background-image: url('images/46_Ithaca_HOURS.png');
+}
+
+.card_47 {
+    background-image: url('images/47_WIR_Currency.png');
+}
+
+.card_48 {
+    background-image: url('images/48_Liberty_Dollar.png');
+}
+
+.card_49 {
+    background-image: url('images/49_Stone_Axe_Blades.png');
+}
+
+.card_4 {
+    background-image: url('images/4_Aggry_Beads.png');
+}
+
+.card_50 {
+    background-image: url('images/50_Manilla.png');
+}
+
+.card_51 {
+    background-image: url('images/51_Pearls.png');
+}
+
+.card_52 {
+    background-image: url('images/52_Roman_Sestertius.png');
+}
+
+.card_53 {
+    background-image: url('images/53_Iron_Tools.png');
+}
+
+.card_54 {
+    background-image: url('images/54_Feathers.png');
+}
+
+.card_55 {
+    background-image: url('images/55_Emeralds.png');
+}
+
+.card_56 {
+    background-image: url('images/56_Giant_Stone_Rings.png');
+}
+
+.card_57 {
+    background-image: url('images/57_LETS_(Local_Exchange_Trading_Systems).png');
+}
+
+.card_58 {
+    background-image: url('images/58_Salt.png');
+}
+
+.card_5 {
+    background-image: url('images/5_Gold.png');
+}
+
+.card_6 {
+    background-image: url('images/6_Silver.png');
+}
+
+.card_7 {
+    background-image: url('images/7_Monero.png');
+}
+
+.card_8 {
+    background-image: url('images/8_Cowry.png');
+}
+
+.card_9 {
+    background-image: url('images/9_Rai_Stones.png');
+}
+
