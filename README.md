@@ -1,6 +1,8 @@
 
 # The Money Quartet: From Barter to Bitcoin
 
+[Preview](https://alexanderthurn.github.io/the-money-quartet/)
+
 **The Money Quartet: From Barter to Bitcoin** is an open-source digital card game that takes players on a journey through the fascinating history of money. From ancient barter systems to modern cryptocurrencies like Bitcoin, this game combines strategy, learning, and fun for all ages. Play solo or with friends in an engaging online experience.
 
 ---
@@ -56,7 +58,7 @@ The goal of the game is to collect complete sets of related cards by strategical
 
 ---
 
-## 🎮 **How to Get Started**
+## 🎮 **Development**
 
 1. Clone the repository:
    ```bash
@@ -64,15 +66,10 @@ The goal of the game is to collect complete sets of related cards by strategical
    cd the-money-quartet
    ```
 
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
+- Install python3
+- Open a terminal and run `python3 -m http.server 3333`
+- Open `http://localhost:3333` in your webbrowser. If it says it is insecure due to http, open it in another browser or in private mode
 
-3. Run the game locally:
-   ```bash
-   npm start
-   ```
 
 4. Access the game in your browser at `http://localhost:3000`.
 
