@@ -1,0 +1,33 @@
+[
+    {
+      "id": 0,
+      "name": "Wampum",
+      "since": 1600,
+      "scarcity": 3,
+      "durability": 4,
+      "divisibility": 4,
+      "transportability": 5,
+      "description": "Shell beads used as currency by Native Americans; also served as storytelling aids in wampum belts."
+    },
+    {
+      "id": 1,
+      "name": "Glass Beads",
+      "since": 1500,
+      "scarcity": 2,
+      "durability": 3,
+      "divisibility": 4,
+      "transportability": 5,
+      "description": "Used as currency in Africa; known as \"slave beads\" during European trade."
+    },
+    {
+      "id": 2,
+      "name": "Chinese Renminbi",
+      "since": 1948,
+      "scarcity": 2,
+      "durability": 3,
+      "divisibility": 5,
+      "transportability": 5,
+      "description": "China's official currency; \"renminbi\" means \"people's currency.\""
+    }
+  ]
+  
