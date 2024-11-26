@@ -9,6 +9,25 @@
     flex-direction: column;
     overflow: hidden;
 }
+.card-back {
+    background-color: #cccccc; /* Hintergrundfarbe der Rückseite */
+    background-image: url('images/card-back.png'); /* Optional: Bild für die Rückseite */
+    background-size: cover; /* Bild vollständig anzeigen */
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px; /* Gleiche abgerundete Ecken wie die Vorderseite */
+    height: 100%; /* Die Karte füllt den Container vollständig */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+
 .card .title {
     padding: 10px;
     background-color: #f8f8f8;
@@ -53,4 +72,29 @@
     gap: 20px;
     justify-content: center;
     padding: 20px;
+}
+
+#card-container2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 Karten pro Zeile */
+    gap: 20px; /* Abstand zwischen den Karten */
+    padding: 20px;
+    justify-items: center; /* Karten zentrieren */
+}
+
+.card {
+    width: 100%;
+    max-width: 250px; /* Maximale Breite der Karten */
+}
+
+@media (max-width: 768px) { /* Für Tablets und kleinere Bildschirme */
+    #card-container2 {
+        grid-template-columns: repeat(2, 1fr); /* 2 Karten pro Zeile */
+    }
+}
+
+@media (max-width: 480px) { /* Für Handys */
+    #card-container2 {
+        grid-template-columns: 1fr; /* 1 Karte pro Zeile */
+    }
 }
