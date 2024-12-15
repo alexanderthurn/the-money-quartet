@@ -52,7 +52,15 @@ function displayCards(currencies) {
         const description = card.querySelector('.description');
         description.textContent = currency.description;
 
+
+        description.addEventListener('click', () => {
+            card.classList.toggle('flipped');
+        });
+
         // Karte zum Container hinzufügen
         container.appendChild(card);
+
+        const cards = document.querySelectorAll('.card');
+
     });
 }
